@@ -3,10 +3,10 @@
 
 # Héron képlet
 
-kerulet = 15 + 20 + 30
-print(kerulet)
-s = kerulet / 2
+perimeter = 15 + 20 + 30
+print(perimeter)
+s = perimeter / 2
 
 helper = s * ((s - 15) * (s - 20) * (s - 30))
-terulet = helper ** (1/2)
-print(terulet)
+area = helper ** (1/2)
+print(area)
