@@ -15,3 +15,14 @@ purchased_cracker_piece = int(input("Insert the amount of cracker: "))
 purchased_biscuit_box_piece = int(input("Insert the amount of biscuit box: "))
 tip = int(input("Insert the amount of tip in Ft: "))
 
+all_payment = (chocolate_per_piece * purchased_chocolate_piece) + (gummy_bear_per_piece * purchased_gummy_bear_piece) + (cracker_per_piece * purchased_cracker_piece) + (biscuit_box * purchased_biscuit_box_piece) + tip
+print(str((all_payment - max_money)))
+print(str((max_money-all_payment)))
+
+if max_money < all_payment:
+    print("Credit: " + str((all_payment - max_money)))
+else:
+    print("Remained money: " + str((max_money-all_payment)))
+
+
+

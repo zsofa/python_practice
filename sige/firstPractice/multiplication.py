@@ -1,4 +1,4 @@
-multiplication# Adott két szám: 8 és 2. Számítsa ki a két szám szorzatát, illetve hányadosát!
+#multiplication# Adott két szám: 8 és 2. Számítsa ki a két szám szorzatát, illetve hányadosát!
 # A kimeneten jelenjen meg sortöréssel elválasztva a két eredmény, illetve az eredményül kapott számok típusát is írassa ki a kimenetre!
 # A print függvényt csak egyszer hívhatja meg!
 
