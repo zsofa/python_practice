@@ -7,8 +7,6 @@
 # A szóközök nem számítanak, és mindegy, hogy egy betű kicsi vagy nagy.
 
 def anagram(s1, s2):
-    final1 = ''
-    final2 = ''
     list_of_letters1 = []
     list_of_letters2 = []
 
