@@ -33,8 +33,6 @@ def is_valid_domain(domain):
     parts = domain.split('.')
     if len(parts) == 3:
         primary, primary_second_half, secondary = parts
-        # primary = parts[0]+'.'+parts[1]
-        # secondary = parts[2]
         return check_english_chars(primary) and check_english_chars(primary_second_half) and check_english_chars(
             secondary)
     elif len(parts) == 2:
