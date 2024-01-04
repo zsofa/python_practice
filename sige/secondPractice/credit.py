@@ -1,3 +1,9 @@
+# Bemegy egy boltba és vásárol pár édességet.
+# A csoki darabja 600 Ft, a gumicukor 400, a keksz 550, egy doboz sütemény 1200.
+# 10.000 Ft van önnél. Mennyi pénze marad, ha még borravalót (tetszőleges) is ad?
+# A megvásárolt mennyiségeket és a borravalót konzolról kérjük be!
+# Ha túllépte az önnél lévő pénzmennyiséget, akkor hitelre vásárol.
+
 csoki = int(input('Hany csokit vasarol? '))
 cukor = int(input('Hany gumicukrot vasarol? '))
 keksz = int(input('Hany kekszet vasarol? '))
